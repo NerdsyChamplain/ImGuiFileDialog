@@ -167,7 +167,10 @@ add_executable(${PROJECT}
 	${BOOST_SOURCES}
 	${CUSTOM_SOURCES}
 	${RES_DEMO_DIALOG}
-	${IMGUIIMPL_SOURCES})
+	${IMGUIIMPL_SOURCES}
+		main.cpp
+		combat.cpp
+		combat.h)
 endif()
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
